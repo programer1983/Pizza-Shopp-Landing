@@ -1,3 +1,4 @@
+import Sidebar from "../Sidebar"
 import Navbar from "./../Navbar"
 import {
   HeroContainer, 
@@ -13,6 +14,7 @@ const Hero = () => {
   return (
    <HeroContainer>
        <Navbar />
+       <Sidebar />
        <HeroContent>
          <HeroItems>
            <HeroH1>Greatest Pizza Ever</HeroH1>
