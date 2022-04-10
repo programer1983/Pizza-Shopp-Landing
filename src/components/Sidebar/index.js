@@ -8,10 +8,10 @@ import {
     SidebarRoute,
 } from "./SidebarElements"
 
-const Sidebar = () => {
+const Sidebar = ({isOpen, toogle}) => {
   return (
-    <SidebarContainer>
-        <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toogle}>
+        <Icon onChange={toogle}>
             <CloseIcon />
         </Icon>
         <SidebarMenu>
