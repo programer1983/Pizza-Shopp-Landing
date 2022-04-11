@@ -8,6 +8,8 @@ export const Nav = styled.nav`
    display: flex;
    justify-content: center;
    font-weight: 700;
+   position: sticky;
+   top: 0;
 `
 
 export const NavLink = styled(Link)`
