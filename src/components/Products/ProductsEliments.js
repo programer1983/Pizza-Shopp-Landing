@@ -26,6 +26,10 @@ export const ProductImg = styled.img`
     min-width: 300px;
     max-width: 100%;
     box-shadow: 8px 8px #fdc500;
+    transition: all 0.5s ease;
+    :hover {
+        transform: scale(1.03);
+    }
 `
 
 export const ProductsHeading = styled.h1`
